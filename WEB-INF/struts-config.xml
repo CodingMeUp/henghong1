@@ -162,7 +162,7 @@
       			<forward name="success" path="/needLogin/admin/getClassList.do?method=getClassList"/>      			
       			<forward name="error" path="/pages/admin/view/adminTemp.jsp"/>      			      			
       </action>      
-      <!-- 后台-管理员添加论坛类别 -->
+      <!-- 后台-管理员 -->
       <action
                 path="/needLogin/admin/addClass"
                 type="com.yxq.action.AdminAction"

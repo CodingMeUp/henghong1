@@ -143,7 +143,7 @@
               </var>
           </field>                                                  
       </form>
-      <!-- 验证，后台-修改/添加论坛类别的配置 --> 
+      <!-- 验证，后台-修改/的配置 --> 
       <form name="classForm">
           <field property="className" depends="required,maxlength">	          
 	          <arg key="论坛类别名称" position="0" resource="false"/>

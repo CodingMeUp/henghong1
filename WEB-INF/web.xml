@@ -52,5 +52,23 @@
       <url-pattern>/needLogin/*</url-pattern>
   </filter-mapping>
   
+    <!-- 配置字符编码过滤器 -->
+	<filter>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<filter-class>com.yxq.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<!-- 如果请求是以/*开头的，并且是通过request dispatcher的forward方法传递过来
+		     或者直接从客户端传递过来的，则必须经过这个过滤器。 -->
+	</filter-mapping>
+	
 </web-app>
 

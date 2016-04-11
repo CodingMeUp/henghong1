@@ -5,7 +5,7 @@
 
 <html>
   <head>
-    <title>添加论坛类别</title>
+    <title></title>
   </head>
   <body>
     <center>
