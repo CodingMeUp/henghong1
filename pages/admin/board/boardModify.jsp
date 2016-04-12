@@ -35,10 +35,10 @@
 	          		<td></td>
 	          		<td><html:errors property="boardName"/></td>
 	          </tr>
-	          <tr height="50">
+	         <!--  <tr height="50">
 	                <td align="right">°æÖ÷£º&nbsp;&nbsp;</td>
-	                <td><html:text property="boardMaster" size="40"/></td>
-	          </tr>
+	                <td><html:text property="boardMaster" size="40"/>tsoft</td>
+	          </tr> -->
 	          <tr>
 	          		<td></td>
 	          		<td><html:errors property="boardMaster"/></td>

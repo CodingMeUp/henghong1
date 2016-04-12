@@ -56,9 +56,12 @@
                                 <logic:equal name="backUserSingle" property="userAble" value="0">
                                     普通用户
                                 </logic:equal>
-                                <logic:equal name="backUserSingle" property="userAble" value="1">
+                  <!--          <logic:equal name="backUserSingle" property="userAble" value="1">
                                     版主
-                                </logic:equal>
+                                </logic:equal> -->    
+                                <logic:equal name="backUserSingle" property="userAble" value="1">
+                                    普通用户
+                                </logic:equal>  
                                 <logic:equal name="backUserSingle" property="userAble" value="2">
                                     管理员
                                 </logic:equal>                                

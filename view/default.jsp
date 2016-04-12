@@ -35,13 +35,13 @@
                             			                </table>
                                     			    </td>
 		                                    	</tr>
-	        		                            <tr height="25" background="images/index/masterB.jpg">
+	        		                         <!--   <tr height="25" background="images/index/masterB.jpg">
     	            		                        <td style="text-indent:60">
     	            		                            <img src="images/index/master.jpg">
         	            		                        <a href="bbs/user/getUserSingle.do?method=getUserSingle&userName=${boardSingle.boardMaster}">
-           	            		                            °ßÖñ£º<bean:write name="boardSingle" property="boardMaster"/></td>
+           	            		                            °ßÖñ£º<bean:write name="boardSingle" property="boardMaster"/></td> 
     	            		                            </a>
-        	                		            </tr>
+        	                		            </tr> --> 
             	                    		</table>
 		        	                    </logic:iterate>                                
 	                	            </logic:notEmpty>

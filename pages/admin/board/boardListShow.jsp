@@ -32,7 +32,7 @@
 	      <tr height="30" bgcolor="#F0F0F0">
 	          <td width="15%" align="center">版面ID</td>
 	          <td width="40%" align="center">版面名称</td>
-	          <td width="25%" align="center">斑竹</td>	          
+	          <td width="25%" align="center">创建者</td> 	          
 	          <td width="20%" align="center" colspan="2">操作</td>
 	      </tr>
           <logic:notPresent name="backBoardList">

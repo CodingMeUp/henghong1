@@ -30,10 +30,10 @@
           		<td></td>
           		<td><html:errors property="boardName"/></td>
           </tr>          
-          <tr>
+        <!--  <tr>
                  <td align="center">°æ&nbsp;&nbsp;&nbsp;&nbsp;Ö÷£º</td>
-                 <td><html:text property="boardMaster" size="45"></html:text>
-          </tr>
+                 <td><html:text property="boardMaster" size="45">tsoft</html:text>
+          </tr>  -->
    	      <tr>
           		<td></td>
           		<td><html:errors property="boardMaster"/></td>
