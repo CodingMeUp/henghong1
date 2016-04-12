@@ -32,7 +32,7 @@
           </tr>          
         <!--  <tr>
                  <td align="center">°æ&nbsp;&nbsp;&nbsp;&nbsp;Ö÷£º</td>
-                 <td><html:text property="boardMaster" size="45">tsoft</html:text>
+                 <td><html:text property="boardMaster" size="45">aadmin</html:text>
           </tr>  -->
    	      <tr>
           		<td></td>
