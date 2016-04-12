@@ -40,7 +40,7 @@
                   <td>
                       &nbsp;
                       <html:image src="images/login/bsup.gif" onmousedown="this.src='images/login/bsdown.gif'" onmouseup="this.src='images/login/bsup.gif'"/>
-                      <html:image src="images/login/brup.gif" onmousedown="this.src='images/login/brdown.gif'" onmouseup="this.src='images/login/brup.gif'" />
+                      <a href='javascript:window.location.reload();'><image style='border:solid 0px transparent' src="images/login/brup.gif" onmousedown="this.src='images/login/brdown.gif'" onmouseup="this.src='images/login/brup.gif'"/></a>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       
                   </td>                  

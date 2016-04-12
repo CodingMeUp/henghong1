@@ -60,7 +60,7 @@
               </table>
             </td>
         </tr>
-        <tr height="40">
+       <!--  <tr height="40">
             <td width="529" align="center" background="images/index/indexP.jpg">                
                 <marquee 
 			      onmouseover=this.stop()
@@ -71,12 +71,12 @@
 				  width="470">
 				  <img src="images/index/pcard.gif"> Tsoft服务热线：(0431)8491*** E-mail：tsoft***@tsoft.com
 		        </marquee>
-            </td>
+            </td>  
             <td align="center" width="271" background="images/index/messages.jpg">
 	            <html:errors property="userOpR"/>
 	            <html:errors property="sqlvalue"/>
             </td>
-        </tr>
+        </tr>-->
         <html:form action="/user/search.do" method="post">
         <input type="hidden" name="validate" value="yes">
         <tr height="38">
@@ -99,8 +99,8 @@
             			    </html:select>
 			                关键字：
             			    <html:text property="sqlvalue" size="30"/>
-			                <html:radio property="searchType" value="like">模糊</html:radio>
-			                <html:radio property="searchType" value="all">精确</html:radio>
+			                <html:radio property="searchType" value="like" style='visibility:hidden' ></html:radio>
+			                <html:radio property="searchType" value="all" style='visibility:hidden'></html:radio>
                				<html:submit value=" " style="background-image:url('images/index/bs.jpg');width:49;height:21;border:0"/>
                         </td>
                     </tr>                    

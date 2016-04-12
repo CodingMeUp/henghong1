@@ -36,7 +36,7 @@
 	          <td width="20%" align="center" colspan="2">操作</td>
 	      </tr>
           <logic:notPresent name="backBoardList">
-              <tr height="80" align="center" bgcolor="#FBFBFB"><td colspan="5"><li>没有版面可显示！</li></td></tr> 
+              <tr height="80" align="center" bgcolor="#FBFBFB"><td colspan="5"><li>请亲右上方勾选论坛类别！</li></td></tr> 
           </logic:notPresent>
           <logic:present name="backBoardList">
               <logic:notEmpty name="backBoardList">
@@ -57,7 +57,7 @@
               </tr>
               </logic:notEmpty>
               <logic:empty name="backBoardList">
-                  <tr height="80" align="center"><td colspan="5"><li>没有版面可显示！</li></td></tr> 
+                  <tr height="80" align="center"><td colspan="5"><li>请亲右上方勾选论坛类别！</li></td></tr> 
               </logic:empty>
           </logic:present>
 	      <tr height="19" style="background-image:url('images/admin/backLE.jpg')"><td colspan="5"></td></tr>	                

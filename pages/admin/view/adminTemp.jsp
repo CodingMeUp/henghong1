@@ -10,7 +10,7 @@
 
 <html>
   <head>
-    <title>编程体验BBS-论坛 后台</title>
+    <title>学校BBS论坛 后台</title>
     <base href="<%=basePath%>">
     <link style="text/css" rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/bbs.js"></script>  

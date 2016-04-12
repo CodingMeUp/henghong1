@@ -9,7 +9,7 @@
 
 <html>
   <head>
-    <title>编程体验BBS-论坛</title>
+    <title>学校BBS论坛</title>
     <base href="<%=basePath%>">
     <link style="text/css" rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/bbs.js"></script>    
@@ -20,7 +20,7 @@
         <tr><td><jsp:include page="top.jsp"/></td></tr>
         <tr><td><jsp:include page="menu.jsp"/></td></tr>        
         <tr><td><jsp:include page="<%=mainPage%>"/></td></tr>
-        <tr><td height="82"><jsp:include page="end.jsp"/></td></tr>
+        <tr><td height="82"><jsp:include page="end.jsp"/><span style='text-align: center;'>本系统为本人毕业设计所开发 指导老师：邝凌宏    学生：刘亨鸿  专业：信息管理与信息系统</span></td></tr>
       </table>
     </center>
   </body>
