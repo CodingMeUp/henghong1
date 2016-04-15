@@ -28,7 +28,7 @@
       </html:form>
 
       <table border="1" width="580" cellspacing="0" cellpadding="0" bordercolor="#E3E3E3" bordercolorlight="#E3E3E3" bordercolordark="white" rules="rows">
-          <tr height="29"><td background="images/admin/backLT.jpg" colspan="5" style="text-indent:5"><b><font color="white">■ 查看版面</font></b></td></tr>	      
+          <tr height="29"><td background="images/admin/backLT.jpg" colspan="5" style="text-indent:5"><b><font color="white">■ 修改版面</font></b></td></tr>	      
 	      <tr height="30" bgcolor="#F0F0F0">
 	          <td width="15%" align="center">版面ID</td>
 	          <td width="40%" align="center">版面名称</td>

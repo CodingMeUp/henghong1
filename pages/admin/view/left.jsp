@@ -23,12 +23,12 @@
 				      <tr bgcolor="#F0F0F0" height="33">
 				            <td style="text-indent:5" colspan="2" background="images/admin/menu.jpg"><b><font color="white">■ 版面管理</font></b></td>
 				      </tr>
-				      <tr height="34">  <td style="text-indent:40" colspan="2" background="images/admin/subMenu.jpg"><a href="needLogin/admin/getBoardList.do?method=getBoardList">查看版面</a></td></tr>
+				      <tr height="34">  <td style="text-indent:40" colspan="2" background="images/admin/subMenu.jpg"><a href="needLogin/admin/getBoardList.do?method=getBoardList">修改版面</a></td></tr>
 				      <tr height="34">  <td style="text-indent:40" colspan="2" background="images/admin/subMenu.jpg"><a href="needLogin/admin/addBoard.do?method=addBoard">添加版面</a></td></tr>
 				      <tr bgcolor="#F0F0F0" height="33">
 				            <td style="text-indent:5" colspan="2" background="images/admin/menu.jpg"><b><font color="white">■ 用户管理</font></b></td>
 				      </tr>
-				      <tr height="34">  <td style="text-indent:40" colspan="2" background="images/admin/subMenu.jpg"><a href="needLogin/admin/getUserList.do?method=getUserList">查看/修改/删除用户</a></td></tr>				      
+				      <tr height="34">  <td style="text-indent:40" colspan="2" background="images/admin/subMenu.jpg"><a href="needLogin/admin/getUserList.do?method=getUserList">修改用户</a></td></tr>				      
                   </table>
               </td>
         </tr>
